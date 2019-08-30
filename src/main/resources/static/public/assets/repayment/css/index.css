@@ -1,0 +1,104 @@
+.coupon-whole{
+  padding:.1rem .2rem
+}
+.no-data{
+  display: none;
+  position:absolute;
+  top:60px;
+  left: 0;
+  right: 0;
+  bottom: 30%;
+  background: url("../image/nodata.jpg") center center no-repeat;
+  background-size: 40%;
+}
+.fail-msg{
+  text-align: center
+}
+.coupon-list{
+  height:1.06rem;
+  background: #f3f3f3;
+  border-radius: .05rem;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: .1rem;
+}
+.coupon-point{
+  float: left;
+  width:40%;
+  /* background: red; */
+  background: url("../image/use-background.jpg") top right;
+  background-size: 100% 100%;
+  position: relative;
+  color: #fff;
+  display: flex;
+  display: -webkit-flex;
+  align-items:center;
+  justify-content:center;
+
+}
+.lose-point{
+  background: url("../image/lose-background.jpg") top right;
+  background-size: 100% 100%;
+}
+.other-background{
+  background: url("../image/right-background.jpg") top right no-repeat;
+  background-size: cover ;
+}
+.periods{
+ position: absolute;
+ top:0.1rem;
+ left:0.1rem;
+ font-size:.1rem;
+}
+.verb{
+  position: absolute;
+  bottom:0.1rem;
+  left:0.1rem;
+  font-size:.1rem;
+}
+.overdue{
+  margin-left:.1rem
+}
+.money-msg{
+  margin:auto;
+  text-align: center
+}
+.big-size{
+  font-size:.2rem;
+}
+.history-size{
+  font-size:.24rem
+}
+.time-size{
+  font-size:.12rem;
+  margin-top: .1rem
+
+}
+.coupon-messaage{
+  flex: 1;
+  padding:.1rem;
+  padding-left:.2rem
+}
+.details{
+  color: #999999;
+  font-size: .11rem;
+}
+.details-title{
+  font-size:.15rem;
+  position: relative;
+  margin-bottom: .17rem;
+  top: .05rem;
+}
+.use-msg{
+  color: #DA3838;
+  font-size: .11rem;
+  position: absolute;
+  right:0rem;
+  top:0rem
+}
+.details-explain{
+  line-height: .21rem
+}
+.other-size{
+  font-size: .1rem;
+}

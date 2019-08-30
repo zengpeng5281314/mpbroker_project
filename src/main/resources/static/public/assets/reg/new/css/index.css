@@ -1,0 +1,64 @@
+body{
+  max-width: 750px;
+  margin: auto;
+}
+.banner img{
+  width:100%;
+}
+.middle{
+  background:#fdf9f4;
+
+}
+.main{
+  width: 65%;
+  margin: auto;
+}
+.title{
+  margin-bottom:.2rem
+}
+.title img{
+  width: 100%;
+}
+.arrow{
+  height: .2rem;
+  text-align: center;
+  padding: .1rem 0
+}
+.arrow img{
+  height: 100%
+}
+.part-explain{
+  height: .44rem;
+  line-height: .44rem;
+  border:1px dashed #ff9420;
+  text-align: center;
+  border-radius: .5rem;
+  color:#f85f23
+}
+.invitation{
+  display: block;
+  width: 100%;
+  margin-top: .38rem;
+  font-size: .18rem;
+  text-align: center;
+  background: -webkit-linear-gradient(top, #ffea7b, #ff900e );
+  padding:.15rem 0;
+  border-radius: .5rem;
+  color:#fff;
+  letter-spacing: .02rem;
+}
+.record{
+  display: block;
+  width: 100%;
+  margin-top: .23rem;
+  text-align: center;
+  color:#5450fe;
+  text-decoration: underline
+}
+.bottom{
+  color:#ff7523;
+  font-size: .13rem;
+  text-align: center;
+  padding:.4rem 0 .15rem 0;
+
+}

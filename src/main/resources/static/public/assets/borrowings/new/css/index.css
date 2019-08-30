@@ -1,0 +1,220 @@
+@font-face {
+  font-family: 'MyFont';   /*字体名称*/
+  src: url('../DIN-MediumAlternate.otf');       /*字体源文件*/
+}
+.whole{
+  max-width: 750px;
+  margin: auto
+}
+.coupon-whole{
+  padding: .14rem
+}
+.no-data{
+  position:absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 30%;
+  background: url("../image/nodata.jpg") center center no-repeat;
+  background-size: 40%;
+}
+.fail-msg{
+  text-align: center
+}
+.coupon-list{
+  height:1.06rem;
+  border-radius: .02rem;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: .1rem;
+  position: relative;
+}
+
+.coupon-point{
+  /* float: left; */
+  width:33%;
+  /* background: red; */
+  position: relative;
+  color: #fff;
+  display: flex;
+  display: -webkit-flex;
+  align-items:center;
+  justify-content:center;
+  height: 94%
+
+}
+
+
+.periods{
+  position: absolute;
+  top: 0.05rem;
+  left: -0.15rem;
+  background: #fce161;
+  font-size: .1rem;
+  color: #fff;
+  padding: .02rem .2rem;
+  transform: rotate(-45deg);
+}
+.verb{
+  position: absolute;
+  bottom:0.1rem;
+  left:0.1rem;
+  font-size:.1rem;
+}
+.overdue{
+  margin-left:.1rem
+}
+.money-msg{
+  margin:auto;
+  text-align: center
+}
+.big-size{
+  font-size:.16rem;
+  color:#333;
+  /* margin-bottom: .02rem */
+
+}
+.money-gray{
+  color:#333
+}
+.history-size{
+  font-size:.24rem;
+
+}
+.time-size{
+  font-size:.14rem;
+  margin-top: .1rem
+
+}
+.coupon-messaage{
+  /* flex: 1; */
+  flex-grow:2;
+  padding:.16rem .13rem
+}
+.details{
+  color: #a8a8a8;
+  font-size: .12rem;
+}
+.title-font{
+  font-size:.18rem;
+  margin-top: -.08rem
+
+}
+
+.details-explain{
+  line-height: .21rem
+}
+.other-size{
+  margin-top: .1rem
+}
+.coupon-btn{
+  /* flex-grow: 1 */
+  margin-left: auto;
+  width: 8%;
+  align-items:center;
+  justify-content:center;
+  border-left:1px dotted #e5e5e5;
+  height: 94%;
+  padding:0rem .05rem 0 .08rem;
+  line-height: .18rem;
+  font-size: .15rem;
+  display: block;
+  position: relative;
+}
+.discount{
+  font-family: MyFont;
+  font-size: .5rem
+}
+.coupon-btn p{
+  position: absolute;
+  width: 8%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.already-image{
+  position: absolute;
+  width: 17%;
+  right: .15rem;
+  top: 50%;
+  transform: translate(0%,-50%);
+}
+
+
+/* 借款券种类 */
+/* 1.通用券 */
+.currency{
+  background: url("../image/background-currency.png") top right no-repeat;
+  background-size:100% 100%; 
+}
+.currency .coupon-point{
+  background: url("../image/coupon-currency.png") center top;
+  background-size: 100% 100%;
+}
+.currency .coupon-btn{
+  color:#fd4b76
+}
+/* 2.减息券 */
+.interest{
+  background: url("../image/background-interest.png") top right no-repeat;
+  background-size:100% 100%; 
+}
+.interest .coupon-point{
+  background: url("../image/coupon-interest.png") center top;
+  background-size: 100% 100%;
+}
+.interest .coupon-btn{
+  color:#6594f7
+}
+/* 3.减服务费券 */
+.service{
+  background: url("../image/background-service.png") top right no-repeat;
+  background-size:100% 100%; 
+}
+.service .coupon-point{
+  background: url("../image/coupon-service.png") center top;
+  background-size: 100% 100%;
+}
+.service .coupon-btn{
+  color:#ff8b24
+}
+/* 4.随借随还券 */
+
+.borrowing{
+  background: url("../image/background-borrowing.png") top right no-repeat;
+  background-size:100% 100%; 
+}
+.borrowing .coupon-point{
+  background: url("../image/coupon-borrowing.png") center top;
+  background-size: 100% 100%;
+}
+.borrowing .coupon-btn{
+  color:#9374fe
+}
+/* 5.信用卡还款券 */
+
+.credit{
+  background: url("../image/background-credit.png") top right no-repeat;
+  background-size:100% 100%; 
+}
+.credit .coupon-point{
+  background: url("../image/coupon-credit.png") center top;
+  background-size: 100% 100%;
+}
+.credit .coupon-btn{
+  color:#fb6451
+}
+/* 借款券状态：已失效、已冻结、已使用、已过期 */
+.invalid{
+  background: url("../image/background-invalid.png") top right no-repeat;
+  background-size:100% 100%; 
+}
+.invalid .coupon-point{
+  background: url("../image/coupon-invalid.png") center top;
+  background-size: 100% 100%;
+}
+.invalid .coupon-btn,.invalid .details-explain,.invalid .details-explain .big-size,.invalid .money-gray{
+  color:#ccc
+}
+.invalid .periods{
+  background: #ccc;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" type="text/css" href="./public/assets/common/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./public/assets/common/css/agreement.css">
+    <script src="./public/assets/common/js/rem.js"></script>
+  <title>关于我们</title>
+  <style>
+    .title{
+      text-align: center;
+      font-size: .20rem;
+      margin-bottom: .1rem
+    }
+    .title img{
+      position: relative;
+      top: -0.02rem;
+      margin-right: .05rem
+    }
+    .version{
+      text-align: center;
+      /* font-size: .16rem; */
+      margin-bottom: .1rem;
+      color:rgb(152, 152, 152)
+    }
+    .content{
+      text-indent: .2rem; 
+      line-height: .3rem
+    }
+    .whole{
+      background: rgb(250, 250, 250);
+      position:absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      padding: .2rem
+    }
+  </style>
+</head>
+<body>
+  <div class="whole">
+    <div class="title"><img src="./public/assets/common/images/logo.png" />瑞e生活</div>
+    <div class="version">[[${v}]]</div>
+    <div class="content">
+          【瑞e生活】是面向信用卡持卡人提供个人综合信用管理、信用卡还款、用卡优惠信息等服务的一款专业化信用卡管理APP。
+    </div>
+     <div class="content">
+            打造以互联网技术+大数据应用为基础，以信用卡科技服务为核心的互联网业务生态链，为信用卡持卡人提供线上信用卡管理、账单服务、还款服务等一站式个人财务及信息服务，形成了“支付、信用管理、消费、营销服务”完整的服务闭环。
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+html{
+  background: #e9734f
+}
+
+body{
+  font-size: 13px!important;
+  max-width: 750px;
+  margin: auto
+}
+header {
+  position: relative;
+  /* height: .45rem;
+  line-height: .45rem; */
+  padding:.3rem 0;
+  text-align: center;
+  color:#fff;
+  font-size: 16px
+}
+header:before {
+  content: "";
+  position: absolute;
+  width: 25%;
+  height: .015rem;
+  top: 50%;
+  background: -webkit-linear-gradient(left, #e9734f, #e1967a );
+  left: 5%;
+}
+header:after {
+  content: "";
+  position: absolute;
+  width: 25%;
+  height: .015rem;
+  top: 50%;
+  background: -webkit-linear-gradient(right, #e9734f, #e1967a );
+  right: 5%;
+}
+.rules{
+  border:1px solid #bb6555;
+  border-radius: .05rem;
+  padding:.13rem;
+  margin: 0 .2rem;
+  background:#fff;
+  height: 4.5rem;
+  background: url('../image/rules-bg.png') left bottom no-repeat;
+  background-size:cover
+}
+.rules div{
+  font-size: 15px;
+  margin-bottom:.1rem;
+  line-height: .25rem
+}

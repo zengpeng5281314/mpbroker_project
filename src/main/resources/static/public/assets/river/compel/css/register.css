@@ -1,0 +1,293 @@
+
+body{
+  max-width: 750px;
+  margin: auto;
+  background:#fff
+}
+.banner img{
+  width:100%;
+}
+.whole{
+  /* background:#fff; */
+  /* position: relative; */
+  position: absolute;
+  left: .15rem;
+  right: .15rem;
+  top: 2.83rem
+}
+.main{
+  background: url(../image/land-bg.png) top left no-repeat;
+  background-size: 100% 100%;
+}
+.title{
+  padding-top:.4rem;
+  margin-bottom:.3rem;
+}
+.title img{
+  width: 2rem;
+  display: block;
+  margin: auto
+}
+.btn-two{
+  text-align: center;
+  padding-bottom: .22rem;
+}
+.btn-two img{
+  width: 2.5rem;
+}
+.btn-two div{
+  text-align: center;
+  font-size: .12rem;
+  margin: .11rem 0;
+
+}
+input[type='checkbox']{
+  width: .12rem;
+  height: .12rem;
+  background-color: #fff;
+  -webkit-appearance:none;
+  border: 1px solid #fd9a5e;
+  outline: none;
+  margin-right: .05rem;
+  border-radius: .003rem;
+  padding:0.02rem
+}
+ input[type=checkbox]:checked{
+  background: url("../image/checked.png")no-repeat center;
+  background-size: 70% 50%
+}
+.btn-two a{
+  color:#5c90fb;
+}
+.letter{
+  letter-spacing: .004rem
+}
+
+.erro{
+  padding:.12rem;
+  font-size: .12rem;
+  color:#ce1506;
+  font-weight: bold
+}
+
+.gift{
+  padding: .1rem .1rem .15rem .1rem
+}
+.gift img{
+  width: 100%;
+}
+.bottom{
+  text-align: center;
+  color:#5a71ad;
+  font-size: .12rem;
+  padding: .12rem 0;
+  letter-spacing: .03rem;
+  line-height: .15rem
+}
+
+/* 弹窗 */
+.black{
+  background: rgba(0,0,0,.8);
+  position: fixed;
+  top: 0;
+  bottom:0;
+  left:0;
+  right:0;
+  display: flex;
+}
+.notice{
+  width:3.15rem;
+  margin: auto;
+  background: #fff;
+  border-radius: .06rem;
+  text-align: center;
+  /* letter-spacing: .02rem; */
+  line-height: .25rem;
+  position: relative;
+  z-index: 999999;
+
+}
+.notice span{
+  color:#194bff
+}
+.download{
+  display: block;
+  width:80%;
+  margin: auto;
+  background: url("../image/submit.png") top left no-repeat;
+  background-size:100% ;
+  height: .45rem;
+  line-height: .4rem;
+  color:#fff;
+  text-align: center;
+  border-radius: .03rem;
+  margin-top: .35rem;
+  margin-bottom:.2rem
+}
+.icon-new{
+  position: relative;
+}
+.icon-new img{
+  width:45%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
+.close{
+  position: absolute;
+  width: 5%;
+  right: 0.12rem;
+  top: 0.12rem;
+}
+.hiden{
+  display: none;
+}
+.notice-content{
+  margin-top:0.75rem;
+  margin-bottom: .05rem;
+  font-size: .19rem;
+  color: #333;
+}
+.notice-receive{
+  color:#999999
+}
+
+
+
+/* form 弹框 */
+.btn{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.titles{
+  position: absolute;
+  width: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+form{
+  padding: .55rem .2rem .3rem .2rem;
+}
+.form-input{
+  position: relative;
+}
+.icon{
+  position: absolute;
+  left: .2rem;
+  top: .12rem;
+  height: .2rem;
+  
+}
+.form-input input{
+  height: .44rem;
+  padding-left: .45rem;
+  padding-right: .1rem;
+  line-height: .44rem;
+  background: #f5f5f5;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+
+}
+input::-webkit-input-placeholder {
+  color: #ccc;
+}
+.tel input{
+  width:100%;
+  margin-bottom: .3rem
+}
+.code{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .33rem
+  
+}
+.code input{
+  width: 60%;
+}
+.code-orange{
+  background:#f5f5f5;
+  height: .44rem;
+  line-height: .44rem;
+  color:#466aeb;
+  text-align: center;
+  width: 35%;
+  border-radius: .5rem;
+  padding:0 .1rem;
+  font-size: .14rem
+
+}
+.gray{
+  background: #ccc;
+  border-radius: .5rem;
+}
+.submit{
+  width: 100%;
+  background: url("../image/btn-one.png") center center no-repeat;
+  background-size: cover ;
+  height: .44rem;
+  line-height: .44rem;
+  text-align: center;
+  border-radius: .5rem;
+  color: #fff;
+
+}
+.error{
+  position: absolute;
+  bottom: 0;
+  color: red;
+  font-size: .12rem;
+  padding-left: .1rem;
+}
+
+/* 广告弹框 */
+.advertisement-btn{
+  display: flex;
+  border-top: 1px solid #cccccc
+}
+.advertisement-btn>div{
+  width:50%;
+  text-align: center;
+  padding:.1rem 0;
+  color:#ccc
+  
+}
+.must-btn{
+  color:#466aeb!important;
+  border-left: 1px solid #ccc
+}
+/* .toast{
+  background: rgba(0,0,0,.8);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  padding: .1rem;
+  font-size: .14rem;
+  text-align: center;
+  display: none;
+
+} */
+.toast{
+  background: rgba(0,0,0,.8);
+  position: absolute;
+  top: 0;
+  /* width: 40%; */
+  color: #fff;
+  padding: .1rem;
+  font-size: .14rem;
+  text-align: center;
+  display: none;
+  /* height: 1rem; */
+  line-height: .3rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: .2rem .5rem;
+}

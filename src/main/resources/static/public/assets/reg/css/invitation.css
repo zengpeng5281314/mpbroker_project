@@ -1,0 +1,82 @@
+body{
+  font-size: 14px!important;
+  max-width: 750px;
+  margin: auto
+}
+.banner img{
+  width:100%;
+}
+.register-form{
+  margin: .2rem 10%
+}
+.process{
+  background: #fffbe7;
+  padding:.15rem
+}
+.process .title{
+  text-align: center;
+  color: #e0050b;
+  font-size: 15px;
+  margin-bottom: .15rem
+}
+/* .part{
+  clear: both;
+  overflow: hidden;
+}
+.content{
+  background:#fee5bd;
+}
+.float-left{
+  float: left;
+  width: 48%;
+}
+.float-right{
+  float: right;
+  width: 48%;
+}
+.left{
+  float: left;
+  padding:.1rem
+  
+}
+.right{
+float:left;
+padding:.1rem .1rem .1rem 0
+} */
+.submit{
+  color: #da0a1a;
+  border-radius: .15rem;
+  font-size: 18px;
+  margin:auto;
+  display: block;
+  width: 80%;
+  padding: .1rem 0;
+  margin-top: .2rem;
+  background: -webkit-linear-gradient(top, #fde63e, #fbc338 );
+  margin-bottom: .2rem
+}
+.yd{
+  display: block;
+  width:80%;
+  margin-bottom: .2rem;
+  margin:auto;
+  padding: .3rem 0;
+
+
+}
+.recode{
+  font-size: 16px;
+  text-decoration: underline;
+  text-align: center
+
+}
+.recode a{
+  color:#db6e6b;
+}
+.bottom{
+  position: absolute;
+  bottom:.2rem;
+  left: 0;
+  right: 0;
+  text-align: center
+}

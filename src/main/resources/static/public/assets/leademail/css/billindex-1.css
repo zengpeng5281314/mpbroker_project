@@ -1,0 +1,139 @@
+.clear{
+    clear: both;
+}
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color: #f9f9f9;
+}
+
+.siMiDR-top,.zhuanShuMail,.ziDongZhuanFa{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.siMiDR-top h2,.zhuanShuMail h2,.ziDongZhuanFa h2,.guanYuSiMi h2{
+    font-size: 16px;
+    border-left: 4px solid #ff7d00;
+    margin: 10px 0 10px 0;
+    padding: 0 0 0 5px;
+    color: #333;
+}
+.siMiDR-top p{
+    padding: 0 0 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+}
+.siMiDR-top .buzhou{
+    padding: 15px 0;
+}
+.siMiDR-top .buzhou .list{
+    float: left;
+    width: 23%;
+    text-align: center;
+}
+.siMiDR-top .buzhou .list:nth-child(2n){
+    width: 15%;
+}
+.siMiDR-top .buzhou .list img{
+    width: 40px;
+    margin: 0 0 15px 0;
+}
+.siMiDR-top .buzhou .list div{
+    font-size: 12px;
+    color: #333;
+}
+
+.zhuanShuMail div{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    font-size: 18px;
+    text-align: center;
+}
+.zhuanShuMail div span{
+    color: #ff7d00;
+    margin-right: 8px;
+
+}
+.zhuanShuMail div a{
+    padding: 5px 8px;
+    color: #fff;
+    background-color: #ff7d00;
+    border-radius: 3px;
+}
+
+.ziDongZhuanFa p{
+    color: #999;
+    padding: 0 0 0 10px;
+    font-size: 12px;
+}
+.ziDongZhuanFa .lists{
+    height: 50px;
+    margin: 10px 0;
+    padding: 0 0 0 10px;
+}
+.ziDongZhuanFa .lists a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.ziDongZhuanFa .lists .more{
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+.guanYuSiMi{
+    padding: 10px 10px 100px;
+}
+.guanYuSiMi>div h3{
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    color: #333;
+}
+.guanYuSiMi>div p{
+    font-size: 12px;
+    color: #565656;
+    margin:  0 0 10px 0;
+    color: #333;
+}
+.siMiDR .jieXiBtn{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    background-color: #f9f9f9;
+}
+.siMiDR .jieXiBtn a{
+    display: block;
+    width: 95%;
+    line-height: 50px;
+    color: #fff;
+    background-color: #ff7d00;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px auto 0;
+}
+.zhuanShuMail p{
+    line-height: 25px;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-top: -25px;
+}
+.zhuanShuMail p img{
+    width: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -15px;
+}
+.redPic{
+    margin-top: 20px;
+}
+#sina01{
+    display:none;padding: 5px;border:1px solid #ff7d00;background-color:#fff;
+    position: absolute;top:5px;left:50%;margin-left:-70px;
+    border-radius: 3px;
+}

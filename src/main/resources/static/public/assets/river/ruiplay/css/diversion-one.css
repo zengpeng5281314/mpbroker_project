@@ -1,0 +1,74 @@
+html{
+  background: #556efe
+}
+body{
+  max-width: 750px;
+  margin: auto;
+}
+.content{
+  background : url("../image/background.png") top left no-repeat;
+  background-size: 100%;
+  padding-bottom: .4rem;
+  position: absolute;
+  top: 0;
+  bottom: .49rem;
+  /* bottom:0; */
+  width: 100%;
+  left: 0;
+}
+.main{
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+  margin-top: .5rem;
+}
+.logo{
+  padding: 0 0 .15rem 0 ;
+  text-align: center
+}
+.logo img{
+  width: 15%;
+}
+.center{
+  width:85%;
+  margin: auto
+
+}
+.title{
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+.advertisement{
+  margin-top: .15rem;
+  background:url("../image/base.png") top left no-repeat;
+  background-size: 100% 100%;
+  text-align: center
+}
+.yq-title{
+  padding-top: .58rem;
+  margin-bottom: .1rem;
+  color:#454866
+}
+.yq-number{
+  color:#fe7420
+}
+.qr-code{
+  padding:.1rem;
+  border:5px solid #f2f7fb;
+  width: 1.2rem;
+  margin: auto;
+  margin-top: .1rem;
+  margin-bottom: .1rem
+
+}
+.qr-code img{
+  width: 100%;
+}
+.annotation{
+  font-size: .14rem;
+  line-height: .25rem;
+  color:#c3c3cc;
+  padding-bottom: .3rem
+}
+

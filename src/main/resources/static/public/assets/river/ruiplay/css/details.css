@@ -1,0 +1,33 @@
+body{
+  max-width: 750px;
+  margin: auto;
+}
+/* 详情页面 */
+.whole{
+  padding: .3rem .15rem;
+}
+.details{
+  margin-bottom: .4rem
+}
+.title{
+  padding: 0.05rem 0 .05rem .12rem;
+  background: url("../image/title-bg.png") right top no-repeat;
+  background-size: 100% 100%;
+  color:#fff;
+  width:1rem;
+}
+.part{
+  color:#666;
+  font-size: .14rem;
+  line-height: .3rem;
+  margin-top: .14rem;
+  margin-bottom:.4rem
+}
+.part span{
+  color:#333;
+  font-weight: bold;
+ 
+}
+.part div{
+  display: flex
+}
